@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Réservation de rendez-vous</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<h1>Réservez votre rendez-vous</h1>
+<body>
+
+
+  <div class="form-container">
+
+  <form id="reservation-form" class="form" action="#">
+      <input type="text" id="nom" class="name" placeholder="Nom" required>
+      <input type="email" id="email" class="email" placeholder="E-mail" required>
+      <input type="date" id="date" placeholder="Date" required>
+      <input type="time" id="heure" placeholder="Heure" required>
+      <button type="submit">Réserver</button>
+    </form>
+  </div>
+
+  <div id="confirmation-message" class="hidden">
+    <p><strong> Merci, votre rendez-vous a été réservé avec succès ! Un e-mail de confirmation vous sera envoyé.</strong></p>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  </div>
+<br>
+<br>
+
+  <footer>
+          <p class="copy">&copy; 2023 by <strong> Opera Ngovula </strong> Tout droit reservés</p>
+    </footer>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
